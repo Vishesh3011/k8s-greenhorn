@@ -8,3 +8,4 @@ spec:
     app: api-golang
   ports:
     - port: 8000
+      targetPort: 8000

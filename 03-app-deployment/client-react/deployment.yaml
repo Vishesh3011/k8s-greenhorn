@@ -16,3 +16,4 @@ spec:
       containers:
         - name: frontend
           image: vishesh3011/client-react
+          imagePullPolicy: Always

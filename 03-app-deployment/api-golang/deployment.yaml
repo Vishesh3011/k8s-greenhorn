@@ -16,6 +16,7 @@ spec:
       containers:
         - name: api-golang
           image: vishesh3011/api-golang
+          imagePullPolicy: Always
           env:
             - name: DATABASE_URL_FILE
               value: /etc/secrets/DATABASE_URL
