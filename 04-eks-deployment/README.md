@@ -73,3 +73,6 @@ eksctl delete cluster demo-cluster --region us-east-1
 ```
 This command will delete the EKS cluster and all associated resources. Make sure to run this command
 only when you are done with the cluster, as it will permanently delete all resources and data associated with it.
+
+### Flow of the EKS Deployment
+![EKS Architecture](eks-architecture.png)
